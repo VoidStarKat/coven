@@ -4,7 +4,7 @@ Game engine
 ## License
 
 Except where noted (below, in crate README files, and/or in individual files), all files in this 
-repository are dual-licensed and distributed under the terms of either of:
+crate are dual-licensed and distributed under the terms of either of:
 
 * [MIT License](LICENSE-MIT)
   ([http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))

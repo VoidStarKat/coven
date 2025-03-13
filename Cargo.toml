@@ -1,9 +1,15 @@
-[package]
-name = "coven"
-version = "0.0.1"
-edition = "2021"
-license = "MIT OR Apache-2.0"
-publish = false
+[workspace]
+resolver = "2"
+members = ["crates/runtime/*"]
+default-members = ["crates/runtime/coven"]
 
-[dependencies]
-ggez = { git = "https://github.com/ggez/ggez.git", branch = "devel" }
+[workspace.package]
+publish = false
+authors = ["Kathryn Long <squeeself@gmail.com>"]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+rust-version = "1.85"
+version = "0.0.0"
+
+[workspace.lints.rust]
+missing_docs = "warn"
